@@ -1,11 +1,68 @@
 /* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4ebe8;
+}
+
 /* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* background-color: #5c9ead; */
+    background-color: #326273;
+}
+#logo {
+    height: 10vw; 
+    border-radius: 50%;
+}
+nav a {
+    padding-left: 1rem;
+    text-decoration: none;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: bold;
+    color: #f4ebe8;
+}
+
+nav a:hover {
+    color: blue;
+}
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 4rem;
+    color: #326273;
+}
+
+main h3 {
+    font-size: 2rem;
+}
+
 #profile {
-    
+    width: 60%;
+    padding: 1rem 0;
+    border-radius: 50%
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
 }
