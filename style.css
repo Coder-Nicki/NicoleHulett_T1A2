@@ -7,10 +7,8 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     background-color: #f4ebe8;
-}
+} 
 
 /* Header */
 header {
@@ -18,7 +16,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    /* background-color: #5c9ead; */
     background-color: #326273;
 }
 #logo {
@@ -31,14 +28,13 @@ nav a {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-weight: bold;
     color: #f4ebe8;
+    font-size: 1.5rem;
 }
 
-nav a:hover {
-    color: blue;
-}
 /* Main */
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
@@ -55,14 +51,32 @@ main h3 {
     font-size: 2rem;
 }
 
+main p {
+    font-size: 1.5rem;
+}
+
 #profile {
-    width: 60%;
+    width: 50vw;
     padding: 1rem 0;
     border-radius: 50%
 }
 
+#social-links {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+#social-links img {
+    height: 20vw;
+    padding: 1rem 0.5rem;
+}
+
 /* Footer */
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
 }
