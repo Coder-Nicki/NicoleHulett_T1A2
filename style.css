@@ -1,5 +1,6 @@
 /* Global styles */
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -31,52 +32,15 @@ nav a {
     font-size: 1.5rem;
 }
 
-/* Main */
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
+h1 {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
-    text-align: center;
-}
-
-main h1 {
-    font-size: 4rem;
-    color: #326273;
-}
-
-main h3 {
-    font-size: 2rem;
+    font-size: 5rem;
+    padding: 1rem 0;
 }
 
 main p {
-    font-size: 1.5rem;
+    font-family: 'Alumni Sans', sans-serif;
 }
 
-#profile {
-    width: 50vw;
-    padding: 1rem 0;
-    border-radius: 50%
-}
 
-#social-links {
-    display: flex;
-    justify-content: center;
-    width: 50vw;
-}
-#social-links img {
-    height: 20vw;
-    padding: 1rem 0.5rem;
-}
 
-/* Footer */
-footer {
-    display: flex;
-    justify-content: center;
-}
-
-footer p {
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-}
