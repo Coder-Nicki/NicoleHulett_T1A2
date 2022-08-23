@@ -1,0 +1,40 @@
+
+/* Main content */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 8vh auto;
+    background: grey;
+}
+
+#container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+#container p {
+    padding: 1rem;
+}
+
+#container img {
+    margin-bottom: 1rem;
+}
+
+#container a {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    border-radius: 10%;
+    background: #326273; 
+    color: #f4ebe8;
+}
+
+#container a:visited {
+    color: grey;
+    background: black;
+}

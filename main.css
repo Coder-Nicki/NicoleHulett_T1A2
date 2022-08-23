@@ -38,15 +38,6 @@ main p {
     padding: 1rem 0.5rem;
 }
 
-/* Footer */
-footer {
-    display: flex;
-    justify-content: center;
-}
-
-footer p {
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-}
 
 @media screen and (min-width: 600px) {
 

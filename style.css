@@ -42,5 +42,11 @@ main p {
     font-family: 'Alumni Sans', sans-serif;
 }
 
+/* Footer */
+footer {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-align: center;
+}
+
 
 
