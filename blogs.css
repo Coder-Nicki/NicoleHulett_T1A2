@@ -1,50 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
-/* Main area */
-
-#main-container {
-    width: 80%;
-    margin: 3rem auto;
+.cards {
+    flex: 1;
+    padding: 1rem;
+    margin: 1rem;
+    border: solid 1px #f4ebe8;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
-    background-color: #101d42;
     color: #f4ebe8;
+    max-width: 200px;
 }
 
-#main-container h1 {
-    font-size: 3rem;
+.blogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #101d42;
+    width: 60%;
+    margin: 0 auto 1rem;
 }
 
-.cards {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    border: 1px solid #f4ebe8;
-    padding: 1rem 0.5rem;
-    margin: 1rem;
+h1 {
+    text-align: center;
+    font-size: 4rem;
 }
 
-.cards a {
+a {
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 1.5rem;
-    font-family: 'Alumni Sans', sans-serif; 
-    color: #f4ebe8;
+    color: inherit;
 }
 
 .cards a:visited {
     color: #326273;
 }
 
-img {
-    width: 20vw;
-}
-
-/* @media screen and (min-width: 741px) {
+@media screen and (min-width:1000px) {
     .blogs-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        width: 95%;
     }
-} */
+}
