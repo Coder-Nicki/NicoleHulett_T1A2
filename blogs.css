@@ -39,7 +39,7 @@ img {
     width: 20vw;
 }
 
-@media screen and (min-width: 741px) {
+/* @media screen and (min-width: 741px) {
     .blogs-container {
         display: flex;
         flex-direction: row;
@@ -47,3 +47,4 @@ img {
         justify-content: center;
         align-items: center;
     }
+} */

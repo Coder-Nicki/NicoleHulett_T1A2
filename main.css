@@ -28,8 +28,14 @@ main p {
     border-radius: 50%
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+}
+
 #social-links {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     width: 50vw;
 }
@@ -39,6 +45,21 @@ main p {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
+    #container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
+    main h1 {
+        font-size: 6rem;
+    }
+    #profile {
+        margin: 2rem auto;
+        width: 60%;
+    }
+    #social-links img {
+        height: 10vw;
+    }
 }
