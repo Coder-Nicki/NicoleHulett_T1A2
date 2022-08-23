@@ -20,6 +20,9 @@
 .cards {
     margin-bottom: 1rem;
     font-size: 1rem;
+    border: 1px solid #f4ebe8;
+    padding: 1rem 0.5rem;
+    margin: 1rem;
 }
 
 .cards a {
@@ -32,16 +35,15 @@
     color: #326273;
 }
 
-/* .blogs-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 70%;
+img {
+    width: 20vw;
 }
 
-.cards {
-    flex: 1;
-
-} */
+@media screen and (min-width: 741px) {
+    .blogs-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
