@@ -2,20 +2,35 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url(images/background.jpg)
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f4ebe8;
+    margin: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 #work-history-info {
     width: 70vw;
 }
 
+#work-history-info p {
+    margin-bottom: 1rem;
+}
+
 /* Resume button */
 #resume-btn {
     font-family: 'Alumni Sans', sans-serif;
-    margin: 2rem;
+    margin: 1rem 2rem 1rem;
     padding: .5rem 1rem;
     border: solid 2px #326273;
     color: #326273;
-    border-radius: 8%;
+    border-radius: 1rem;
 }
 
 main a:hover {
@@ -23,4 +38,8 @@ main a:hover {
 }
 main a:visited {
     color: grey;
+}
+
+footer p {
+    color: #f4ebe8;
 }

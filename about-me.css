@@ -1,4 +1,8 @@
-
+#page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /* Main section */
 
 main h1 {
@@ -32,11 +36,21 @@ main h1 {
     width: 50vw;
     line-height: 1.5rem;
     font-size: 1rem;
+    margin-bottom: 10vh;
     /* text-align: center; */
 }
 
 #about-me-info p {
     margin-bottom: 1rem;
+}
+
+/* footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} */
+.position {
+    bottom: 0;
 }
 
 /* Desktop view */

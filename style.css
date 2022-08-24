@@ -25,6 +25,10 @@ header {
     height: 7vh; 
     border-radius: 50%;
 }
+
+#logo:hover {
+    transform: scale(1.2)
+}
 /* Navigation component */
 nav a {
     padding-left: 1rem;
@@ -34,7 +38,14 @@ nav a {
     color: #f4ebe8;
     font-size: 1.5rem;
 }
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 2rem;
+}
 /* Main H1 heading for pages */
+
 h1 {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-size: 5rem;
@@ -49,7 +60,10 @@ main p {
 footer {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     text-align: center;
+    /* display: fixed;
+    bottom: 0; */
 }
+
 
 
 
