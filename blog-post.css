@@ -1,40 +1,45 @@
 
 /* Main content */
 
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem 1rem;
+    
+}
+
 #container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 80%;
-    margin: 8vh auto;
     background: grey;
+    width: 70%;
+    margin: 2rem auto;
 }
 
-#container h1 {
-    font-size: 2rem;
-    text-align: center;
-    margin: 1rem;
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
 }
-
-#container p {
+#blog-info {
+    
+}
+#blog-pic img {
     padding: 1rem;
 }
-
-#container img {
-    margin-bottom: 1rem;
+/* Return to blogs button */
+.blog-btn a {
+    color: #f4ebe8;
 }
 
-#container a {
+.blog-btn {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     padding: .5rem 1rem;
     margin: 1rem;
     border-radius: 10%;
     background: #326273; 
-    color: #f4ebe8;
 }
 
-#container a:visited {
-    color: grey;
-    background: black;
-}
+

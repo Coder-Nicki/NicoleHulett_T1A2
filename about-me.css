@@ -29,9 +29,14 @@ main h1 {
 }
 /* Information/text component */
 #about-me-info {
-    width: 70vw;
+    width: 50vw;
     line-height: 1.5rem;
     font-size: 1rem;
+    /* text-align: center; */
+}
+
+#about-me-info p {
+    margin-bottom: 1rem;
 }
 
 /* Desktop view */
