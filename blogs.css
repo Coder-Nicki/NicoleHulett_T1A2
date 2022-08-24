@@ -1,3 +1,16 @@
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+/* Container for all blog posts */
+.blogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto 1rem;
+}
+/* Individual blog post cards */
 .cards {
     flex: 1;
     padding: 1rem;
@@ -6,24 +19,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #f4ebe8;
-    max-width: 200px;
+    color: #326273;
+    max-width: 280px;
+    border: 1px black solid;
 }
 
-.blogs-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: #101d42;
-    width: 60%;
-    margin: 0 auto 1rem;
-}
-
-h1 {
-    text-align: center;
-    font-size: 4rem;
-}
-
+/* Links styling */
 a {
     font-family: 'Alumni Sans', sans-serif;
     font-size: 1.5rem;
@@ -31,11 +32,11 @@ a {
 }
 
 .cards a:visited {
-    color: #326273;
+    color: black;
 }
 
-@media screen and (min-width:1000px) {
-    .blogs-container {
-        width: 95%;
+@media screen and (min-width: 900px) {
+    .cards {
+        max-width: 200px;
     }
 }

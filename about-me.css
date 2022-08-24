@@ -1,28 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
 /* Main section */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Alumni Sans', sans-serif;
-}
 
 main h1 {
     font-size: 5rem;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     padding: 1rem 0;
+    text-align: center;
+}
+
+/* Heading and profile pic component */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #about-me-pic {
-    width: 30vw;
+    width: 40vw;
     border-radius: 50%;
     margin-bottom: 2rem;
 }
-
+/* Information/text component */
 #about-me-info {
     width: 70vw;
     line-height: 1.5rem;
     font-size: 1rem;
+}
+
+/* Desktop view */
+@media screen and (min-width: 900px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #about-me {
+        width: 40vw;
+    }
+
+    #about-me-info {
+        width: 40vw;
+    }
+    #about-me-pic {
+        width: 40vh;
+    }
 }
 

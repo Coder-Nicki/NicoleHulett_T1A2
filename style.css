@@ -18,11 +18,14 @@ header {
     align-items: center;
     padding: 1rem;
     background-color: #326273;
+    height: 10vh;
 }
 #logo {
-    height: 10vw; 
+    display: flex;
+    height: 7vh; 
     border-radius: 50%;
 }
+/* Navigation component */
 nav a {
     padding-left: 1rem;
     text-decoration: none;
@@ -31,13 +34,13 @@ nav a {
     color: #f4ebe8;
     font-size: 1.5rem;
 }
-
+/* Main H1 heading for pages */
 h1 {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-size: 5rem;
-    padding: 1rem 0;
+    padding: 1rem 0 0;
 }
-
+/* Basic font for pages */
 main p {
     font-family: 'Alumni Sans', sans-serif;
 }
