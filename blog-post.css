@@ -1,0 +1,62 @@
+
+/* Main content */
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem 1rem;
+    
+}
+/* @keyframes blogpost {
+    0% {background: grey;}
+    25% {background: pink;}
+    50% {background: blue;}
+    75% {background: orange;}
+    100% {background: grey;}
+} */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* animation-name: @blogpost; */
+    width: 80%;
+    margin: 2rem auto;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+#blog p {
+    margin-bottom: 1rem;
+}
+
+#blog-pic img {
+    padding: 1rem;
+    width: 60vw;
+}
+/* Return to blogs button */
+.blog-btn a {
+    color: #f4ebe8;
+}
+
+.blog-btn {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    border-radius: 10%;
+    background: #326273; 
+}
+
+@media screen and (min-width: 800px) {
+    #blog-pic img {
+        max-width: 300px;
+    }
+    #container {
+        width: 50%;
+    }
+}
+
