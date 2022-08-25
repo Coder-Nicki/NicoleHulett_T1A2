@@ -8,6 +8,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #f4ebe8;
 } 
 
@@ -60,8 +62,6 @@ main p {
 footer {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     text-align: center;
-    /* display: fixed;
-    bottom: 0; */
 }
 
 

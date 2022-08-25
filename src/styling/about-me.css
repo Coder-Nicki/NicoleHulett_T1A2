@@ -1,8 +1,8 @@
-#page-container {
+/* #page-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 /* Main section */
 
 main h1 {
@@ -17,14 +17,15 @@ main h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 3vh;
 }
 
-#about-me {
+/* #about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} */
 
 #about-me-pic {
     width: 40vw;
@@ -33,11 +34,9 @@ main h1 {
 }
 /* Information/text component */
 #about-me-info {
-    width: 50vw;
+    width: 60vw;
     line-height: 1.5rem;
     font-size: 1rem;
-    margin-bottom: 10vh;
-    /* text-align: center; */
 }
 
 #about-me-info p {
@@ -48,13 +47,13 @@ main h1 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-} */
+}
 .position {
     bottom: 0;
-}
+} */
 
 /* Desktop view */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
     .container {
         flex-direction: row;
         justify-content: center;
@@ -73,7 +72,18 @@ main h1 {
         width: 40vw;
     }
     #about-me-pic {
-        width: 40vh;
+        width: 50vh;
     }
 }
+
+@media screen and (min-width: 1100px) {
+    .container {
+        width: 60vw;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+    
 

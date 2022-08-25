@@ -20,10 +20,25 @@ I have created a portfolio website that is responsive to all screen sizes, inclu
 
 ## Sitemap
 
+![](wireframes/portfolioSitemap.drawio(2).png)
+
 ## Screenshots
+
+![](wireframes/main.png)
+
+![](wireframes/about-me.png)
+
+![](wireframes/experience.png)
+
+![](wireframes/blogs.png)
+
+![](wireframes/blog-post.png)
 
 ## Target Audience
 My target audience is for prospective employers. 
 
 ## Tech Stack
-I have used HTML and CCS only. I deployed the website with Netifly.
+- I have used HTML and CCS for the website through the text editor VS code.
+- I completed the site map on draw.io. 
+- The wireframes were created on Figma. 
+- I deployed the website with Netifly.
