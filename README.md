@@ -24,15 +24,42 @@ I have created a portfolio website that is responsive to all screen sizes, inclu
 
 ## Screenshots
 
-![](wireframes/main.png)
+# Wireframes
 
-![](wireframes/about-me.png)
+![](docs/wireframes/main.png)
 
-![](wireframes/experience.png)
+![](docs/wireframes/about-me.png)
 
-![](wireframes/blogs.png)
+![](socs/wireframes/experience.png)
 
-![](wireframes/blog-post.png)
+![](docs/wireframes/blogs.png)
+
+![](docs/wireframes/blog-post.png)
+
+# Desktop view
+
+![](docs/screenshots/d-main.png)
+![](docs/screenshots/d-about.png)
+![](docs/screenshots/d-experience.png)
+![](docs/screenshots/d-blogs.png)
+![](docs/screenshots/d-blogpost.png)
+
+# Tablet view
+
+![](docs/screenshots/t-main.png)
+![](docs/screenshots/t-about.png)
+![](docs/screenshots/t-experience.png)
+![](docs/screenshots/t-blogs.png)
+![](docs/screenshots/t-blogpost.png)
+
+# Mobile view
+
+![](docs/screenshots/m-main.png)
+![](docs/screenshots/m-about.png)
+![](docs/screenshots/m-experiences.png)
+![](docs/screenshots/m-blogs.png)
+![](docs/screenshots/m-blogpost.png)
+
 
 ## Target Audience
 My target audience is for prospective employers. 
