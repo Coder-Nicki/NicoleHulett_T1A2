@@ -26,7 +26,7 @@ I have created a portfolio website that is responsive to all screen sizes, inclu
 
 ## Sitemap
 
-![](wireframes/portfolioSitemap.drawio(2).png)
+![](docs/wireframes/portfolioSitemap.drawio(2).png)
 
 ## Screenshots
 
