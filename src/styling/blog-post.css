@@ -3,24 +3,17 @@
 
 h1 {
     text-align: center;
-    font-size: 3rem;
-    padding-bottom: 1rem 1rem;
+    font-size: 2rem;
     
 }
-/* @keyframes blogpost {
-    0% {background: grey;}
-    25% {background: pink;}
-    50% {background: blue;}
-    75% {background: orange;}
-    100% {background: grey;}
-} */
+
 #container {
     display: flex;
     flex-direction: column;
     align-items: center;
     /* animation-name: @blogpost; */
     width: 80%;
-    margin: 2rem auto;
+    margin: 0 auto;
 }
 
 #blog {
@@ -51,12 +44,24 @@ h1 {
     background: #326273; 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) and (max-width: 920px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 920px) {
     #blog-pic img {
         max-width: 300px;
     }
     #container {
-        width: 50%;
+        width: 70%;
+    }
+
+    #col {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
 

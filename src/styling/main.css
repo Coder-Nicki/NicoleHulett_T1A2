@@ -2,9 +2,7 @@
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 1rem 0;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     text-align: center;
 }
@@ -17,6 +15,13 @@ main h1 {
 
 main h3 {
     font-size: 2rem;
+    animation-name: glow;
+    animation-duration: 3s;
+}
+@keyframes glow {
+    0% {
+        text-shadow: 1rem 1rem #326273;
+}
 }
 
 main p {
@@ -29,12 +34,25 @@ main p {
     padding: 1rem 0;
     border-radius: 50%
 }
-/* All the different sections are to stack their details in a column */
-section {
-    display: flex;
-    flex-direction: column;
+
+/* Email link */
+#email {
+    color: black;
+    margin-bottom: 1rem;
 }
-/* Social link component */
+
+#email:hover {
+    color: white;
+    font-size: 1.5rem;
+    background: #326273;
+    border: black solid 1px;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+}
+#email:visited {
+    color: grey;
+}
+/* Social links component */
 #social-links {
     display: flex;
     flex-direction: row;
@@ -51,13 +69,13 @@ section {
 }
 
 /* Layout change for desktop */
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 920px) {
     #container {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
         width: 80vw;
+        margin-top: 2vh;
     }
 
     main h1 {
@@ -69,7 +87,6 @@ section {
     }
 
     #profile {
-        margin: 2rem auto;
         width: 60%;
     }
     
@@ -77,7 +94,7 @@ section {
         height: 10vw;
     }
     #img {
-        border-right: solid 2px black;
+        border-right: solid 2px #326273;
     }
     
 }

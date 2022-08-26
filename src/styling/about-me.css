@@ -1,8 +1,4 @@
-/* #page-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
+
 /* Main section */
 
 main h1 {
@@ -17,25 +13,17 @@ main h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3vh;
 }
-
-/* #about-me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
 
 #about-me-pic {
     width: 40vw;
     border-radius: 50%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 /* Information/text component */
 #about-me-info {
-    width: 60vw;
-    line-height: 1.5rem;
+    width: 70vw;
+    line-height: 1rem;
     font-size: 1rem;
 }
 
@@ -43,21 +31,15 @@ main h1 {
     margin-bottom: 1rem;
 }
 
-/* footer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.position {
-    bottom: 0;
-} */
-
 /* Desktop view */
-@media screen and (min-width: 800px) {
+
+@media screen and (min-width: 920px) {
     .container {
+        width: 60vw;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin: 0 auto;
     }
 
     h1 {
@@ -73,16 +55,6 @@ main h1 {
     }
     #about-me-pic {
         width: 50vh;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-    .container {
-        width: 60vw;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
     }
 }
     

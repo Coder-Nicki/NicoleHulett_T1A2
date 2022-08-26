@@ -10,6 +10,7 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     background-color: #f4ebe8;
 } 
 
@@ -26,8 +27,21 @@ header {
     display: flex;
     height: 7vh; 
     border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 5s;
 }
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% { 
+        transform: scale(1);
+    }
+}
 #logo:hover {
     transform: scale(1.2)
 }
@@ -62,6 +76,8 @@ main p {
 footer {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     text-align: center;
+    margin-bottom: 0;
+    margin-top: auto;
 }
 
 

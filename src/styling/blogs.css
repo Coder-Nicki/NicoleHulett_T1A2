@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 /* Container for all blog posts */
 .blogs-container {
@@ -24,6 +24,10 @@ h1 {
     border: 1px black solid;
 }
 
+.cards:hover {
+    background: grey;
+}
+
 /* Links styling */
 a {
     font-family: 'Alumni Sans', sans-serif;
@@ -39,5 +43,8 @@ a {
     .cards {
         max-width: 200px;
         margin-bottom: 20vh;
+    }
+    h1{
+        font-size: 4rem;
     }
 }
