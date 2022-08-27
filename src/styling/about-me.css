@@ -55,6 +55,7 @@ main h1 {
     }
     #about-me-pic {
         width: 50vh;
+        margin-right: 2rem;
     }
 }
     
