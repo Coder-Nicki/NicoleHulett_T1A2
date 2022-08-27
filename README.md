@@ -4,6 +4,8 @@
 
 ### [GitHub Repo](https://github.com/Coder-Nicki/NicoleHulett_T1A2)
 
+### [Slidedeck Presentation](https://youtu.be/UNmaJwRfl-8)
+
 ***
 
 ## Purpose
@@ -29,6 +31,8 @@ I have created a portfolio website that is responsive to all screen sizes, inclu
 ![](docs/wireframes/portfolioSitemap.drawio(2).png)
 
 ## Screenshots
+
+***
 
 # Wireframes
 
