@@ -40,7 +40,7 @@ I have created a portfolio website that is responsive to all screen sizes, inclu
 
 ![](docs/wireframes/about-me.png)
 
-![](socs/wireframes/experience.png)
+![](docs/wireframes/experience.png)
 
 ![](docs/wireframes/blogs.png)
 
