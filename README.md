@@ -14,7 +14,7 @@ The purpose of my portfolio is to to showcase my web development skills to poten
 ***
 
 ## Functionality/Features
-I have created a portfolio website that is responsive to all screen sizes, including mobile, tablet and desktop so that it is asscessible for everyone. I have utilised a simple design throughout the website, with small parts showing off different CSS skills I have learnt. The web site includes four main pages.
+I have created a portfolio website that is responsive to all screen sizes, including mobile, tablet and desktop so that it is accessible for everyone. I have utilised a simple design throughout the website, with small parts showing off different CSS skills I have learnt. The web site includes four main pages.
 
 - Home page: This is the landing page when viewing the website. It can also be accessed by clicking on my logo in the top left corner in the header. This page features a circular profile picture and links to my social pages.
 
