@@ -40,7 +40,7 @@ I have created a portfolio website that is responsive to all screen sizes, inclu
 
 ![](docs/wireframes/about-me.png)
 
-![](docs/wireframes/experience.png)
+![](docs/wireframes/work-history.png)
 
 ![](docs/wireframes/blogs.png)
 
@@ -49,7 +49,7 @@ I have created a portfolio website that is responsive to all screen sizes, inclu
 # Desktop view
 
 ![](docs/screenshots/d-main.png)
-![](docs/screenshots/d-about.png)
+![](docs/screenshots/about-me.png)
 ![](docs/screenshots/d-experience.png)
 ![](docs/screenshots/d-blogs.png)
 ![](docs/screenshots/d-blogpost.png)
@@ -66,7 +66,7 @@ I have created a portfolio website that is responsive to all screen sizes, inclu
 
 ![](docs/screenshots/m-main.png)
 ![](docs/screenshots/m-about.png)
-![](docs/screenshots/m-experiences.png)
+![](docs/screenshots/m-experience.png)
 ![](docs/screenshots/m-blogs.png)
 ![](docs/screenshots/m-blogpost.png)
 
